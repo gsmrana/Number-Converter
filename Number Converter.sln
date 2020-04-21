@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number Converter", "Number Converter\Number Converter.csproj", "{9B1DA67F-F69D-4388-8D87-BDEDC52DDA97}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Number Converter Setup", "Number Converter Setup\Number Converter Setup.vdproj", "{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,8 +27,17 @@ Global
 		{9B1DA67F-F69D-4388-8D87-BDEDC52DDA97}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9B1DA67F-F69D-4388-8D87-BDEDC52DDA97}.Release|x86.ActiveCfg = Release|x86
 		{9B1DA67F-F69D-4388-8D87-BDEDC52DDA97}.Release|x86.Build.0 = Release|x86
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Debug|Any CPU.ActiveCfg = Debug
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Debug|x86.ActiveCfg = Debug
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Release|Any CPU.ActiveCfg = Release
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Release|Mixed Platforms.ActiveCfg = Release
+		{36D1B658-20E2-4A49-B7E8-EE381E5EBD39}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3019AA42-CF67-4682-96D5-B913A138E9E8}
 	EndGlobalSection
 EndGlobal
